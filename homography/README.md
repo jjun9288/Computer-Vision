@@ -1,12 +1,12 @@
 # Automatic stitching of two images
 
 Take two views of images first to run this algorithm.   
-<img src="school_1.jpg">
-<img src="school_2.jpg">
+<img src="school_1.jpg" width="400" height="300">
+<img src="school_2.jpg" width="400" height="300">
 
 For descriptor, I used SIFT descriptors in OpenCV to get the feature points that match between two images.   
-<img src="keypoint_1_sift.jpg">
-<img src="keypoint_2_sift.jpg">
+<img src="keypoint_1_sift.jpg" width="400" height="300">
+<img src="keypoint_2_sift.jpg" width="400" height="300">
 
 After that, I used bruteforce matcher with K nearest neighbor to get the feature points that are strongly related.   
 
@@ -18,4 +18,4 @@ For the candidates of homography matrix, we transform the points in one image by
 One that is below the threshold and have the most inliers are the best homography matrix.   
    
 By using this homography matrix, we warp the images and make the panorama image.   
-<img src="panorama.jpg">
+<img src="panorama.jpg" width="400" height="300">
