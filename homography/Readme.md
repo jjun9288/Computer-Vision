@@ -1,1 +1,0 @@
-Homography implementation using OpenCV and NumPy
