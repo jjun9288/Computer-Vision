@@ -1,3 +1,1 @@
-# My-projects
-
-Small projects by myself for experience   
+Some computer vision task implementation
