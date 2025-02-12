@@ -1,6 +1,6 @@
 ### Pistol detection using YOLO v5
 
-- Simple object detection with pre-trained model
+- Simple object detection task by training model
 - Datasets from https://public.roboflow.com/object-detection/pistols
 
 ### Object tracking using YOLO v5
