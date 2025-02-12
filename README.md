@@ -1,1 +1,1 @@
-Some computer vision task implementation
+Some computer vision projects and implementations
