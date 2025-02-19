@@ -1,1 +1,0 @@
-Photometric Stereo Implementation
