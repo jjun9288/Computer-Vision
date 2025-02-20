@@ -8,7 +8,7 @@ def initialize(cfg_path, ckpt_path, device) :
         device = device,
         show_progress = False
     )
-
+ 
 def inference(input_path, model) :
     result = model(
         inputs = input_path,
